@@ -5,13 +5,13 @@
     <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/</link>
     <description>Personal listening feed for audio recordings preserved and hosted by the Southern Baptist Historical Library &amp; Archives. Not affiliated with or endorsed by SBHLA; for personal use only.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:02:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:11:14 +0000</lastBuildDate>
     <itunes:author>Southern Baptist Historical Library &amp; Archives</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Religion &amp; Spirituality"/>
-    <itunes:image href="REPLACE_WITH_HOSTED_ARTWORK_URL/artwork.jpg"/>
+    <itunes:image href="https://laholmes2.github.io/sbhla-podcast/artwork.jpg"/>
     <image>
-      <url>REPLACE_WITH_HOSTED_ARTWORK_URL/artwork.jpg</url>
+      <url>https://laholmes2.github.io/sbhla-podcast/artwork.jpg</url>
       <title>SBHLA Pastor&#x27;s Conference Recordings (Personal Archive)</title>
       <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/</link>
     </image>
