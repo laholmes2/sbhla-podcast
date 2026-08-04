@@ -41,8 +41,8 @@ curl -sIL "<mp3-url>" | grep -i content-length
 
 ## Current content
 
-10 episodes from the 1963 SBC Pastor's Conference (Monday morning through
-Tuesday morning, in session order), sourced from:
+All 16 audio files from the complete 1963 SBC Pastor's Conference (Monday
+morning through Tuesday afternoon's closing session), sourced from:
 https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/
 
 This collection is organized by conference *session* (e.g. "Monday Morning,
@@ -50,14 +50,18 @@ Part 1"), not by individual sermon — each ~1 hour file can span multiple
 speakers, and sermons sometimes run across two files. Titles and
 descriptions were cross-referenced against SBHLA's printed 1963 conference
 program (linked in each episode's description) to attribute real speaker
-names and sermon titles to each file. Segment boundaries within a file are
-*estimated* from the program's printed schedule (assuming the session
+names and sermon titles to each file, including notable names like Vance
+Havner, W. A. Criswell, and Robert G. Lee. Segment boundaries within a file
+are *estimated* from the program's printed schedule (assuming each session
 started on time and ran continuously) — they are not verified by listening,
 so treat minute-level placement as approximate, especially where a sermon
-is noted as continuing into the next or previous file.
+is noted as continuing into the next or previous file. Two sessions (Monday
+evening and Tuesday afternoon) ran noticeably longer than their printed
+schedule accounts for; the unaccounted-for time is called out in those
+episodes' descriptions rather than guessed at.
 
-Not yet included from the 1963 conference: the rest of Tuesday (including
-W. A. Criswell's "The Cross of Christ," Tuesday ~11:40am) and K. Owen
-White's "The New Birth" and Jess C. Moody's "The Christian Home." Easy to
-add later the same way — pull the next audio file's playlist JSON off the
-1963 page and match it against the program PDF.
+To add other years (1954-1980 are all available from SBHLA), pull that
+year's page, extract the `script[type="application/json"]` playlist blob
+for MP3 URLs/titles/durations, get byte sizes via `curl -sIL <url> | grep
+content-length`, and cross-reference against that year's program PDF from
+https://sbhla.org/digital-resources/sbc-pc-programs/.

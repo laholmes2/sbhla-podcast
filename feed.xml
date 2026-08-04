@@ -5,7 +5,7 @@
     <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/</link>
     <description>Personal listening feed for audio recordings preserved and hosted by the Southern Baptist Historical Library &amp; Archives. Not affiliated with or endorsed by SBHLA; for personal use only.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:11:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:17:41 +0000</lastBuildDate>
     <itunes:author>Southern Baptist Historical Library &amp; Archives</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Religion &amp; Spirituality"/>
@@ -107,12 +107,72 @@
     </item>
     <item>
       <title>Charles B. Howard (Devotional) &amp; John E. Huss, &quot;The Church That Jesus Built&quot; (pt. 1) — 1963 Pastor&#x27;s Conference, Tue AM Pt. 1</title>
-      <description>Tuesday morning session, May 7, 1963. Per the printed program: 9:00 Music; 9:10 Scripture &amp; Prayer, Paul Denington (TN); 9:15 Devotional, Charles B. Howard (NC); 9:45 Music; 9:50 &quot;The Church That Jesus Built,&quot; John E. Huss (SC) — continues beyond this file. Note: this session also includes &quot;The New Birth&quot; (K. Owen White), &quot;The Christian Home&quot; (Jess C. Moody), and &quot;The Cross of Christ&quot; (W. A. Criswell) later in the day, not yet included in this feed. Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <description>Tuesday morning session, May 7, 1963. Per the printed program: 9:00 Music; 9:10 Scripture &amp; Prayer, Paul Denington (TN); 9:15 Devotional, Charles B. Howard (NC); 9:45 Music; 9:50 &quot;The Church That Jesus Built,&quot; John E. Huss (SC) — continues into Part 2. Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
       <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
       <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162504/sbc_pc_1963-10-Tuesday_Morning-Part_1.MP3" length="59436909" type="audio/mpeg"/>
       <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162504/sbc_pc_1963-10-Tuesday_Morning-Part_1.MP3</guid>
       <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
       <itunes:duration>3715</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>John E. Huss, &quot;The Church That Jesus Built&quot; (concl.) &amp; K. Owen White, &quot;The New Birth&quot; — 1963 Pastor&#x27;s Conference, Tue AM Pt. 2</title>
+      <description>Tuesday morning session, May 7, 1963, continued. Per the printed program: conclusion of &quot;The Church That Jesus Built,&quot; John E. Huss (SC); 10:20 Special Music, James Carraway (LA); 10:25 &quot;The New Birth,&quot; K. Owen White (TX); 10:55 Offering; 11:00 Special Music, Jack Day (FL); start of &quot;The Christian Home,&quot; Jess C. Moody (FL) near the end of this file, continuing into Part 3. Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
+      <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162517/sbc_pc_1963-11-Tuesday_Morning-Part_2.MP3" length="60462163" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162517/sbc_pc_1963-11-Tuesday_Morning-Part_2.MP3</guid>
+      <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
+      <itunes:duration>3779</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Jess C. Moody, &quot;The Christian Home&quot; &amp; W. A. Criswell, &quot;The Cross of Christ&quot; (pt. 1 of 2) — 1963 Pastor&#x27;s Conference, Tue AM Pt. 3</title>
+      <description>Tuesday morning session, May 7, 1963, continued. Per the printed program: &quot;The Christian Home,&quot; Jess C. Moody (FL); 11:35 Special Music, Mrs. Martha Branham (TX); 11:40 &quot;The Cross of Christ,&quot; W. A. Criswell (TX) — continues into Part 4. Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
+      <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162528/sbc_pc_1963-12-Tuesday_Morning-Part_3.MP3" length="59202016" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162528/sbc_pc_1963-12-Tuesday_Morning-Part_3.MP3</guid>
+      <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
+      <itunes:duration>3700</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>W. A. Criswell, &quot;The Cross of Christ&quot; (concl.) &amp; start of Tuesday Afternoon — 1963 Pastor&#x27;s Conference, Tue AM Pt. 4</title>
+      <description>This file concludes the Tuesday morning session and may run into the start of Tuesday afternoon, though — unlike Monday&#x27;s bridging file — it is not explicitly labeled as spanning both sessions, so treat that possibility with extra caution. Per the printed program: conclusion of &quot;The Cross of Christ,&quot; W. A. Criswell (TX); 12:15 Closing Prayer, Ralph McIntyre (TN); [lunch break, likely not captured]; possibly the very start of the 2:00 PM afternoon session (Music; 2:10 Scripture &amp; Prayer, W.I. (Bill) Thomas, TX; 2:15 Devotional, Charles B. Howard, NC). Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
+      <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162537/sbc_pc_1963-13-Tuesday_Morning-Part_4.MP3" length="56918287" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162537/sbc_pc_1963-13-Tuesday_Morning-Part_4.MP3</guid>
+      <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
+      <itunes:duration>3557</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Charles B. Howard (Devotional) &amp; J. Conally Evans, &quot;The Land of No Tears&quot; (pt. 1 of 2) — 1963 Pastor&#x27;s Conference, Tue PM Pt. 1</title>
+      <description>Tuesday afternoon session, May 7, 1963. Per the printed program: 2:00 Music; 2:10 Scripture &amp; Prayer, W.I. (Bill) Thomas (TX); 2:15 Devotional, Charles B. Howard (NC); 2:45 Special Music, James Carraway (LA); 2:50 &quot;The Land of No Tears,&quot; J. Conally Evans (FL) — continues into Part 2. Note: this session ran noticeably longer than its printed schedule (as Monday evening also did), so later items in this session may land later than the schedule alone suggests. Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
+      <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162551/sbc_pc_1963-14-Tuesday_Afternoon-Part_1.MP3" length="60185474" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162551/sbc_pc_1963-14-Tuesday_Afternoon-Part_1.MP3</guid>
+      <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
+      <itunes:duration>3762</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>J. Conally Evans, &quot;The Land of No Tears&quot; (concl.) &amp; Robert G. Lee, &quot;The Second Coming of Christ&quot; (pt. 1 of 2) — 1963 Pastor&#x27;s Conference, Tue PM Pt. 2</title>
+      <description>Tuesday afternoon session, May 7, 1963, continued. Per the printed program: conclusion of &quot;The Land of No Tears,&quot; J. Conally Evans (FL); 3:20 Presentation of New Officers; 3:25 Offering; 3:30 Special Music, Mrs. Martha Branham (TX); 3:35 &quot;The Second Coming of Christ,&quot; Robert G. Lee (TN) — continues into Part 3. Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
+      <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162610/sbc_pc_1963-15-Tuesday_Afternoon-Part_2.MP3" length="57609592" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162610/sbc_pc_1963-15-Tuesday_Afternoon-Part_2.MP3</guid>
+      <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
+      <itunes:duration>3601</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Robert G. Lee, &quot;The Second Coming of Christ&quot; (concl.) — 1963 Pastor&#x27;s Conference, Tue PM Pt. 3 (Final Session)</title>
+      <description>Tuesday afternoon session, May 7, 1963, concluding — the final session of the 1963 Pastor&#x27;s Conference. Per the printed program: conclusion of &quot;The Second Coming of Christ,&quot; Robert G. Lee (TN); 4:15 Closing Prayer, William B. Williams (TX). This session runs noticeably longer than the printed schedule accounts for; the remainder is not itemized (likely additional unscheduled business/remarks). Segment boundaries are estimated from the printed program&#x27;s schedule and are not verified by listening; the full program is linked below. Full printed program: http://media2.sbhla.org.s3.amazonaws.com/collections/sbc_pastors_conf/sbc_pc_1963.pdf</description>
+      <link>https://sbhla.org/digital-resources/pastors-conference-audio-recordings/pc-audio-1963/</link>
+      <enclosure url="https://cdn.sbhla.org/wp-content/uploads/20220212162621/sbc_pc_1963-16-Tuesday_Afternoon-Part_3.MP3" length="57576991" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://cdn.sbhla.org/wp-content/uploads/20220212162621/sbc_pc_1963-16-Tuesday_Afternoon-Part_3.MP3</guid>
+      <pubDate>Tue, 07 May 1963 00:00:00 +0000</pubDate>
+      <itunes:duration>3598</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
