@@ -37,8 +37,15 @@ def parse_duration_to_seconds(duration: str) -> int:
 
 
 def rfc822(date_str: str) -> str:
-    dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+    # Accepts "YYYY-MM-DD" or "YYYY-MM-DD HH:MM" (the latter lets same-day
+    # multi-part episodes sort in the right order within a podcast app).
+    for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d"):
+        try:
+            dt = datetime.strptime(date_str, fmt).replace(tzinfo=timezone.utc)
+            return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+        except ValueError:
+            continue
+    raise ValueError(f"Unrecognized date format: {date_str!r}")
 
 
 def build_item(row: dict) -> str:

@@ -5,7 +5,7 @@ Southern Baptist Historical Library & Archives (sbhla.org). No audio is
 copied or re-hosted — the feeds only contain metadata and links to SBHLA's
 own CDN files.
 
-Three shows so far, each its own feed (so subscribing to one doesn't disturb
+Four shows so far, each its own feed (so subscribing to one doesn't disturb
 the others):
 
 | Show | Feed URL | CSV | Build script |
@@ -13,17 +13,18 @@ the others):
 | Pastor's Conference Recordings | `https://laholmes2.github.io/sbhla-podcast/feed.xml` | `data/sermons.csv` | `build_feed.py` |
 | Baptist Hour Recordings | `https://laholmes2.github.io/sbhla-podcast/baptist_hour_feed.xml` | `data/baptist_hour_1945.csv` | `build_baptist_hour_feed.py` |
 | Louie D. Newton Sermons | `https://laholmes2.github.io/sbhla-podcast/louie_newton_feed.xml` | `data/louie_newton.csv` | `build_louie_newton_feed.py` |
+| Porter Routh Oral History | `https://laholmes2.github.io/sbhla-podcast/porter_routh_feed.xml` | `data/porter_routh_oral_history.csv` | `build_porter_routh_feed.py` |
 
 Subscribe to either feed URL in a podcast app (Apple Podcasts, Overcast,
 Pocket Casts, etc.) via "Add Show by URL".
 
 ## Files
 
-- `feedlib.py` — shared feed-building logic (both shows import this)
-- `build_feed.py` / `build_baptist_hour_feed.py` — thin per-show config, each writes its own `feed.xml`
-- `data/*.csv` — per-show episode metadata (title, date, description, mp3 url, byte size, duration, source page, and optionally a program PDF link)
+- `feedlib.py` — shared feed-building logic (every show imports this)
+- `build_*.py` — thin per-show config, each writes its own `<name>_feed.xml`
+- `data/*.csv` — per-show episode metadata. Columns: `title,date,description,mp3_url,bytes,duration,source_page`, plus optional `program_pdf`. `date` accepts `YYYY-MM-DD` or `YYYY-MM-DD HH:MM` — use the time form when a show has same-day multi-part episodes that need to sort in a specific order (see Porter Routh below).
 - `artwork/make_artwork.py` — generates 3000x3000 cover art from SBHLA's real logo; takes `--title-line1/2` and `--out` so each show gets its own art
-- `artwork.jpg` / `baptist_hour_artwork.jpg` — generated cover art per show
+- `*.jpg` (repo root) — generated cover art per show
 
 ## Usage
 
@@ -32,6 +33,8 @@ Regenerate a feed after editing its CSV:
 ```bash
 python3 build_feed.py
 python3 build_baptist_hour_feed.py
+python3 build_louie_newton_feed.py
+python3 build_porter_routh_feed.py
 ```
 
 Each `build_*.py` script's `FeedConfig(image=...)` must be an absolute,
@@ -111,6 +114,7 @@ process described above for adding a new show/year.
 
 ### Louie D. Newton Sermons (16 episodes)
 
+
 All 16 audio files of sermons by Louie D. Newton, longtime pastor of Druid
 Hills Baptist Church in Atlanta, GA (1929-1968), sourced from:
 https://sbhla.org/digital-resources/louie-d-newton-sermons-audio-recordings/
@@ -130,3 +134,22 @@ things worth knowing:
   Sin"). It's placed last in the feed with a nominal date for sort order
   only; the description says explicitly that the real date is unknown
   rather than implying one.
+
+### Porter Routh Oral History (38 episodes)
+
+A different kind of show from the other three: not sermons, but a 1986-1987
+oral history interview with Porter Routh (1911-1987), longtime Executive
+Secretary-Treasurer of the SBC Executive Committee, conducted by A. Ronald
+Tonks over 38 taped sessions. Sourced from:
+https://sbhla.org/digital-resources/sbc-leaders-oral-history/routh-porter-wroe-oral-history/
+
+Each file is already individually dated and numbered by SBHLA (e.g. "Porter
+Routh-Oral History-07-August 14, 1986-Tape 1"), so titles came straight from
+that — no cross-referencing needed, same as Baptist Hour and Louie Newton.
+The one wrinkle: several dates have more than one tape (e.g. three tapes
+on August 14, 1986), and some of those extra tapes are very short (as
+brief as 2 minutes) — likely a tape change or brief interruption rather
+than a full session. To keep same-day tapes playing in the right order,
+this show's CSV uses the `date` column's optional `HH:MM` time component
+(e.g. `1986-08-14 09:00`, `1986-08-14 10:00`, `1986-08-14 11:00`) purely
+for sort order, not as a claim about actual recording times.
