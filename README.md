@@ -5,13 +5,14 @@ Southern Baptist Historical Library & Archives (sbhla.org). No audio is
 copied or re-hosted — the feeds only contain metadata and links to SBHLA's
 own CDN files.
 
-Two shows so far, each its own feed (so subscribing to one doesn't disturb
-the other):
+Three shows so far, each its own feed (so subscribing to one doesn't disturb
+the others):
 
 | Show | Feed URL | CSV | Build script |
 |---|---|---|---|
 | Pastor's Conference Recordings | `https://laholmes2.github.io/sbhla-podcast/feed.xml` | `data/sermons.csv` | `build_feed.py` |
 | Baptist Hour Recordings | `https://laholmes2.github.io/sbhla-podcast/baptist_hour_feed.xml` | `data/baptist_hour_1945.csv` | `build_baptist_hour_feed.py` |
+| Louie D. Newton Sermons | `https://laholmes2.github.io/sbhla-podcast/louie_newton_feed.xml` | `data/louie_newton.csv` | `build_louie_newton_feed.py` |
 
 Subscribe to either feed URL in a podcast app (Apple Podcasts, Overcast,
 Pocket Casts, etc.) via "Add Show by URL".
@@ -107,3 +108,25 @@ worth knowing:
 
 1945 is the only year currently included; other years follow the same
 process described above for adding a new show/year.
+
+### Louie D. Newton Sermons (16 episodes)
+
+All 16 audio files of sermons by Louie D. Newton, longtime pastor of Druid
+Hills Baptist Church in Atlanta, GA (1929-1968), sourced from:
+https://sbhla.org/digital-resources/louie-d-newton-sermons-audio-recordings/
+
+Single speaker, single collection — like Baptist Hour, each file is already
+individually labeled by SBHLA with date and sermon title (and occasionally
+a service note like AM/PM or "Ordination of Deacons"), so titles and
+descriptions came straight from that, no cross-referencing needed. A few
+things worth knowing:
+
+- Two dates (1953-03-16 and 1956-10-21) each have two sermons in the
+  collection, presumably morning and evening services; both are included
+  and cross-reference each other in their descriptions.
+- One entry (1969-11-28) is a eulogy Newton gave at his own wife's funeral,
+  not a Sunday sermon.
+- One entry has no date in SBHLA's own catalog ("No Date - The Cure of
+  Sin"). It's placed last in the feed with a nominal date for sort order
+  only; the description says explicitly that the real date is unknown
+  rather than implying one.
